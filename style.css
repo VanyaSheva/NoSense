@@ -11,15 +11,19 @@ body{
     box-sizing: border-box;
 }
 .user{
-    width: 200px;
     height: 100px;
     border: 1px solid black;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    border-radius: 10px;
+}
+.user:hover{
+    transform: scale(1.02);
 }
 .user-wrapper{
-    padding: 100px;
+    padding: 30px;
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    flex-direction: column;
     margin: 0 auto;
 }
 
@@ -32,18 +36,20 @@ body{
 }
 button{
     width: 220px;
+    font-family: 'Bangers', cursive;
     height: 70px;
     background-color: #f6b200;
     border: none;
-    color: #ffffff;
-    font-size: 20px;
+    color: #0f2afc;
+    font-size: 35px;
     font-weight: 400;
     transition: 0.1s ease-in-out;
     cursor: pointer;
+    border-radius: 8px;
 }
 button:hover{
     transform: scale(1.1);
-    filter: drop-shadow(0 0 0.75rem #dca14d);
+    filter: drop-shadow(0 0 0.75rem #46d6fc);
 }
 .hide{
     display: none;
@@ -53,7 +59,8 @@ button:hover{
     margin: 0 auto;
     width: 300px;
     height: 100px;
-    border-radius: 30%;
+    border-radius: 30px;
+    background-color: aqua;
 }
 .user{
     background-color: #f6b200;

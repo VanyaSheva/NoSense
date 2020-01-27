@@ -88,8 +88,6 @@ function createNewMarkup() {
     sort.addEventListener('click', sortUsers);
     buttonWrapper.append(destroy);
     destroy.addEventListener('click', deleteElem);
-    console.log(users);
-    console.log(users);
 }
 
 
